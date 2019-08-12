@@ -5,3 +5,8 @@
 h2{
     color: white;
 }
+
+.text-center button {
+    background-color: white;
+    color: #333;
+}

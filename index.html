@@ -29,7 +29,7 @@
 
   <!-- Bootstrap has prebuilt components that we can use within our webpage's. Below, we're using Bootstrap's navbar component. On the Bootstrap website, in the left sidebar, you should see a link to 'Components'. After clicking Components, the left sidebar should populate a list of all of the pre-built components Bootstrap has to offer. We can use these components and edit them however we would like. -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -47,16 +47,17 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown link
+            Projects
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="../Javascript-Library/Projects/Netflix/index.html">Static Layout</a>
+            <a class="dropdown-item" href="https://codepen.io/Connor-Wolfford/pen/RXxmgx">CSS Creature</a>
+            <a class="dropdown-item" href="https://animeparty-d507b.firebaseapp.com/">Studio Ghibli API</a>
           </div>
         </li>
       </ul>
     </div>
+    <h1 class="display-4">Connor Wolfford</h1>
   </nav>
 
   <!-- Header -->
@@ -65,8 +66,8 @@
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">fluid jumbotron</h1>
-      <p class="lead">this is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <h1 style="text-align: center">Projects</h1>
+      <!--<p class="lead">this is a modified jumbotron that occupies the entire horizontal space of its parent.</p>-->
     </div>
   </div>
 
@@ -78,36 +79,51 @@
   <!-- Below we have a container, with a nested row, and 3 nested columns. The container is simply just a container for our content that we want to display in our grid. The row will align our columns in a horizontal row. And the columns are were we store our information.  -->
 
   <section id="projects">
-    <h1 style="text-align: center">Projects</h1>
+    <!--old h1 for projects-->
     <div class="container">
       <div class="row">
         <div class="col-4">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex, quo laborum quae
-            aspernatur qui saepe eligendi cumque. Blanditiis qui sequi ratione minima. Optio nesciunt cum
-            accusantium sed eos accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Corporis quidem aliquam, repudiandae aut saepe corrupti aliquid in omnis, eius magnam ea ex
-            incidunt quo dignissimos ullam eum itaque similique velit.</p>
+          <a href="../Javascript-Library/Projects/Netflix/index.html"><img src="../portfolioExample/assets/img/staticLayoutPic.png" width="232px" height="217px"></a>
         </div>
         <div class="col-4">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex, quo laborum quae
-            aspernatur qui saepe eligendi cumque. Blanditiis qui sequi ratione minima. Optio nesciunt cum
-            accusantium sed eos accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Corporis quidem aliquam, repudiandae aut saepe corrupti aliquid in omnis, eius magnam ea ex
-            incidunt quo dignissimos ullam eum itaque similique velit.</p>
+          <a href="https://codepen.io/Connor-Wolfford/pen/RXxmgx"><img src="../portfolioExample/assets/img/creatureCSS.png" width="232px" height="217px"></a>
         </div>
         <div class="col-4">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex, quo laborum quae
-            aspernatur qui saepe eligendi cumque. Blanditiis qui sequi ratione minima. Optio nesciunt cum
-            accusantium sed eos accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Corporis quidem aliquam, repudiandae aut saepe corrupti aliquid in omnis, eius magnam ea ex
-            incidunt quo dignissimos ullam eum itaque similique velit.</p>
+          <a href="https://animeparty-d507b.firebaseapp.com/"><img src="../portfolioExample/assets/img/aimePartyPic.PNG" width="232px" height="217px"></a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- About -->
-
+<br>
+<br>
+<div class="aboutMeBreak">
+<hr />
+<br>
+<h2>About Me</h2>
+<br>
+<hr/>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p id="content">As a young sprout in my sophmore year of high school I took a web design class, I loved this knowledge that I gained from class so much that I did absolutely nothing with it. The part about coding that excites me most is the knowledge that I can gain, and what i can do with it. My best personality trait is my unending nuetrality.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="aboutMeBreak">
+<hr />
+<br>
+<br>
+<hr />
+</div>
 
   <!-- Contact -->
 
@@ -117,6 +133,7 @@
     <div class="container">
       <br>
       <br>
+      <h2 class="text-center text-uppercase text-underlined">Like what you see?</h2>
       <h2 class="text-center text-uppercase">Contact Me</h2>
       <div class="row">
         <div class="col-12">

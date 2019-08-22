@@ -1,8 +1,18 @@
 #navbarNav {
     font-family: var(--font-two);
+    
 }
 
 .navbar-brand {
     font-family: var(--font-three);
     font-size: 24pt;
+    background-color: #d2fdf2
+}
+
+#navbarDropdownMenuLink {
+    background-color: #d2fdf2
+}
+
+#dropdown-item {
+    background-color: #d2fdf2
 }

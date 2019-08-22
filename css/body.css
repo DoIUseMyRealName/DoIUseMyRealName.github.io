@@ -1,3 +1,31 @@
 body {
-    background: var(--brown);
+    background-color: #d2fdf2;
+}
+
+.col-4 {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.aboutMeBreak {
+    background-image: url('../assets/portfolioBackground.png');
+    background-size: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#content {     
+    display:table-cell;   
+    text-align:center;  
+    vertical-align:middle;   
+    word-wrap:break-word; 
+    margin-right: 100%;
+    margin-left: 100%;
+    color: white;
+    font-family: var(--font-four);
+
 }

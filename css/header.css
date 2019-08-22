@@ -1,7 +1,13 @@
 .jumbotron {
-    background: url('../assets/img/bw.jpg') center bottom;
+    background: url('../assets/portfolioBackground.png') center bottom;
     background-size: cover;
     height:30vh;
     color: white;
     /* font-family: var(--font-four); */
+}
+
+.display-4 {
+    text-align: center;
+    font-size: 95%;
+    float: right;
 }

@@ -27,5 +27,7 @@ h2 {
     margin-left: 100%;
     color: white;
     font-family: var(--font-four);
+    text-shadow: 2px 2px 5px black;
+    font-size: 200%;
 
 }
